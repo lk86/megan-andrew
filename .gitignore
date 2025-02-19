@@ -1,4 +1,5 @@
-site/public
-site/themes/*
-site/themes/*/media
-site/media
+public
+themes/*
+themes/*/media
+media
+node_modules

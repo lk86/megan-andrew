@@ -1,0 +1,28 @@
+{
+	"Fingerprint": "vmYlsrEdyt",
+	"build": "public",
+	"baseurl": "",
+	"theme": "wedding-lite",
+	"entrypoint_html": "global/html.svelte",
+	"entrypoint_js": "spa",
+	"theme_config": {
+		"wedding-lite": {
+			"url": "https://github.com/plenti-themes/wedding-lite",
+			"commit": "8152c3488a8ac94b478c19ae7f1f08ffdc839b24",
+			"exclude": []
+		}
+	},
+	"local": {
+		"port": 3000
+	},
+	"routes": {
+		"pages": "/:filename"
+	},
+	"cms": {
+		"provider": "",
+		"repo": "",
+		"redirect_url": "",
+		"app_id": "",
+		"branch": ""
+	}
+}
