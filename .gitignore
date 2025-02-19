@@ -1,0 +1,4 @@
+site/public
+site/themes/*
+site/themes/*/media
+site/media
