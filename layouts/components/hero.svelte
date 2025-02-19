@@ -6,8 +6,8 @@
     <div class="hero-container" style="background-image: url({image});}">
         <div class="content">
 
-            <h2>{subtitle}</h2>
             <h1>{title}</h1>
+            <h2>{subtitle}</h2>
 
             <div class="checklist">
                 {#each checklist as item}
@@ -74,7 +74,7 @@
         background: var(--custom-btn-bg-color);
         border: 0;
         color: var(--white-color);
-        font-family: var(--title-font-family);
+        font-family: var(--brand-font-family);
         font-size: var(--p-font-size);
         font-weight: var(--font-weight-bold);
         text-transform: uppercase;
@@ -85,7 +85,7 @@
         display: inline-block;
     }
     .save-the-date-wrapper {
-        margin-top: -25%;
+        margin-top: 5%;
         margin-left: auto;
         flex: 0 0 auto;
         width: 25%;

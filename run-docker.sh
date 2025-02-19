@@ -1,8 +1,11 @@
 #!/bin/bash
 
-echo "Deleting all old containers..."
+echo "Starting the container..."
 
-docker rm -v -f $(docker ps -qa)
+# docker run -it -p 3000:3000 --platform linux/amd64 --name megan-andrew megan-andrew-builder:latest
+docker run -it -p 3000:3000 --platform linux/amd64 --name megan-andrew megan-andrew:latest
 
-# docker run -it -p 3000:3000 --platform linux/amd64 megan-andrew-builder:latest
-docker run -it -p 3000:3000 --platform linux/amd64 megan-andrew:latest
+echo "Cleaning up..."
+
+docker rm -v -f megan-andrew
+

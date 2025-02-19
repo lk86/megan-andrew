@@ -13,16 +13,22 @@
             <div class="navbar-collapse{expanded ? ' expanded' : ''}" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#section_1" on:click={() => expanded = false}>Our Story</a>
+                        <a href="#section_1" on:click={() => expanded = false}>Details</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_2" on:click={() => expanded = false}>Rsvp</a>
+                        <a href="#section_2" on:click={() => expanded = false}>Attending</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_3" on:click={() => expanded = false}>Gallery</a>
+                        <a href="#section_3" on:click={() => expanded = false}>Virtual</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_4" on:click={() => expanded = false}>Contact Us</a>
+                        <a href="#section_4" on:click={() => expanded = false}>Rsvp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section_5" on:click={() => expanded = false}>Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section_6" on:click={() => expanded = false}>Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -72,7 +78,7 @@
         color: var(--primary-color);
     }
     .navbar-brand {
-        font-family: var(--title-font-family);
+        font-family: var(--brand-font-family);
         font-size: var(--h4-font-size);
         font-weight: var(--font-weight-bold);
     }

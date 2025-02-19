@@ -9,8 +9,9 @@
   --p-color: #717275;
   --border-color: #e9eaeb;
   --icon-color: #28856b;
-  --body-font-family: 'Century Gothic', 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
-  --title-font-family: 'Castellar', serif;
+  --body-font-family: 'Source Sans Pro', sans-serif;
+  --title-font-family: 'Amatic SC', cursive;
+  --brand-font-family: 'Castellar', 'Kastellar', 'Fredericka the Great', serif;
   --h1-font-size: 72px;
   --h2-font-size: 48px;
   --h3-font-size: 36px;
