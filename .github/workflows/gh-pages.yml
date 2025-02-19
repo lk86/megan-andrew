@@ -9,9 +9,24 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+
+      - name: Add Theme
+        working-directory: ./megan-andrew
+        uses: docker://plentico/plenti:latest
+        with:
+          entrypoint: /plenti
+          args: theme add https://github.com/plenti-themes/wedding-lite
+
+      - name: Enable Theme
+        working-directory: ./megan-andrew
+        uses: docker://plentico/plenti:latest
+        with:
+          entrypoint: /plenti
+          args: theme enable wedding-lite
 
       - name: Build
+        working-directory: ./megan-andrew
         uses: docker://plentico/plenti:latest
         with:
           entrypoint: /plenti
