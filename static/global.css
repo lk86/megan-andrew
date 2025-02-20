@@ -11,7 +11,7 @@
   --icon-color: #FF69B4;
   --body-font-family: 'Source Sans Pro', sans-serif;
   --title-font-family: 'Amatic SC', cursive;
-  --brand-font-family: 'Castellar', 'Kastellar', 'Fredericka the Great', serif;
+  --brand-font-family: 'Fredericka the Great', serif;
   --h1-font-size: 72px;
   --h2-font-size: 48px;
   --h3-font-size: 36px;
@@ -96,8 +96,15 @@ body {
   font-family: 'Sarabun', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   font-family: var(--title-font-family);
+  font-weight: var(--font-weight-bold);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-family: var(--brand-font-family);
   font-weight: var(--font-weight-bold);
   margin-top: 0;
   margin-bottom: 0.5rem;

@@ -13,22 +13,19 @@
             <div class="navbar-collapse{expanded ? ' expanded' : ''}" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#section_1" on:click={() => expanded = false}>Details</a>
+                        <a href="#section_1" on:click={() => expanded = false}>RSVP</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_2" on:click={() => expanded = false}>Attending</a>
+                        <a href="#section_2" on:click={() => expanded = false}>Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_3" on:click={() => expanded = false}>Virtual</a>
+                        <a href="#section_3" on:click={() => expanded = false}>Gift Registry</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_4" on:click={() => expanded = false}>Rsvp</a>
+                        <a href="#section_4" on:click={() => expanded = false}>Livestream</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_5" on:click={() => expanded = false}>Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#section_6" on:click={() => expanded = false}>Contact Us</a>
+                        <a href="#section_5" on:click={() => expanded = false}>Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -87,6 +84,9 @@
         flex-basis: auto;
         flex-grow: 1;
         align-items: center;
+    }
+    i {
+        color: var(--icon-color);
     }
     ul {
         flex-direction: row;
