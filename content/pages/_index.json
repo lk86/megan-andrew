@@ -48,6 +48,7 @@
 					{
 						"title":"Celebrating Virtually",
 						"message":"RSVP below and we will send you an email with the link to watch the ceremony live, or check back here on April 12th around 5:30 PM EDT.",
+						"bullets":[],
 						"image": {
 							"src": "media/grid/OceanviewNahant.png",
 							"alt": "Oceanview Nahant wedding arbor"
@@ -57,6 +58,7 @@
 					{
 						"title": "Declining",
 						"message": "Sorry to hear that you can't make it, but check back here after the wedding to see the video of our ceremony and photos from throughout the celebration!",
+						"bullets":[],
 						"image": {
 							"src": "media/grid/sunset.jpg",
 							"alt": "A California Sunset"
