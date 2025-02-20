@@ -32,7 +32,7 @@
 				"items": [
 					{
 						"title": "Attending In Person",
-						"message": "Thank you for coming! Please click RSVP below, before March 7th, 2024. Things to Know:",
+						"message": "Thank you for coming! Please click RSVP below, before March 7th, 2024.",
 						"bullets": [
 									"Location:  Enclosed and heated tent on the beach, with plenty of parking",
 									"Dress code: Formal beach wear",
@@ -47,7 +47,7 @@
 					},
 					{
 						"title":"Celebrating Virtually",
-						"message":"RSVP below and we will send you an email with the link to watch the ceremony live, or check back here on April 12th around 5:30 PM EDT.",
+						"message":"RSVP below and we will email you the link to watch the ceremony live, or check back here on April 12th before the ceremony begins at 5:30 PM EDT.",
 						"bullets":[],
 						"image": {
 							"src": "media/grid/OceanviewNahant.png",
@@ -151,16 +151,16 @@
 		{
 			"name": "blurb",
 			"fields": {
-				"title": "Gift Registry",
-				"background": "media/blurb/field-benjamin-davies.jpg",
-				"desc": "Gift Registry Coming Soon™"
+				"title": "Livestream",
+				"desc": "Wedding live streaming details coming soon, RSVP to recieve an email notification."
 			}
 		},
 		{
 			"name": "blurb",
 			"fields": {
-				"title": "Livestream",
-				"desc": "Wedding live streaming details coming soon, RSVP to recieve an email notification."
+				"title": "Gift Registry",
+				"background": "media/blurb/field-benjamin-davies.jpg",
+				"desc": "Gift Registry Coming Soon™"
 			}
 		},
 		{
