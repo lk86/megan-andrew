@@ -27,7 +27,7 @@
 			"fields": {
 				"background": "media/blurb/field-benjamin-davies.jpg",
 				"title": "Attending In Person",
-				"desc": "<p>For those of you joining in-person, don't worry about the weather; the ceremony will be inside an enclosed, heated tent. It is a formal dress code, with beach-ey colors. If you haven't guessed, we will be on the beach (in the smallest town in Massachusetts)! Cocktail hour will be inside the venue, with hors d'oeuvres and an open bar. For those driving in, there is plenty of parking at the venue.</p>"
+				"desc": "<p>For those of you joining in-person, don't worry about the weather; the ceremony will be inside an enclosed, heated tent. It is a formal dress code, with beach-ey colors. We will be on the beach in the smallest town in Massachusetts. Cocktail hour will be inside the venue, with hors d'oeuvres and an open bar. For those driving in, there is plenty of parking at the venue.</p>"
 			}
 		},
 		{
@@ -38,15 +38,42 @@
 			}
 		},
 		{
-			"name": "form",
+			"name": "grid",
 			"fields": {
 				"title": "RSVP",
 				"desc": {
 					"intro": "Will you attend?",
 					"main": "Please reserve before March 7th, 2025"
 				},
-				"image": "media/form/closeup-shot-newlywed-couple-sitting-bench.jpg",
-				"button": "Confirm Attendance"
+				"items": [
+					{
+						"title": "Attending In Person",
+						"message": "Thank you for coming! Please click the link to RSVP below before March 7th, 2024",
+						"image": {
+							"src": "media/grid/decorated-table-setting-wedding-celebration.jpg",
+							"alt": "Decorated table setting at wedding celebration"
+						},
+						"url": "https://docs.google.com/forms/d/e/1FAIpQLScsYaRaw-G6dNpvzrlVaEOq9EJJME3uEN7wPuq-ih0EdbGzDw/viewform?usp=sharing"
+					},
+					{
+						"title":"Celebrating Virtually",
+						"message":"RSVP below and we will send you an email with the link to watch the ceremony live!",
+						"image": {
+							"src": "media/grid/decorated-table-setting-wedding-celebration.jpg",
+							"alt": "Decorated table setting at wedding celebration"
+						},
+						"url": "https://docs.google.com/forms/d/e/1FAIpQLSf7l-GAG63tuqFFAxsp3QWYDdbBMJt6Ntzdd_l82W1Cs7lonA/viewform?usp=sharing"
+					},
+					{
+						"title": "Declining",
+						"message": "Sorry to hear that you can't make it, but check back here after April 12th to see the video of our ceremony and photos from throughout the celebration!",
+						"image": {
+							"src": "media/grid/decorated-table-setting-wedding-celebration.jpg",
+							"alt": "Decorated table setting at wedding celebration"
+						},
+						"url": "https://docs.google.com/forms/d/e/1FAIpQLSfvf-vpS87L9rLkjbCTX5SHgMoCmI8LhG770I59QrAfLNvEvw/viewform?usp=sharing"
+					}
+				]
 			}
 		},
 		{
