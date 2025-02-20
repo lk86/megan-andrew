@@ -19,10 +19,10 @@
                         <a href="#section_2" on:click={() => expanded = false}>Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_3" on:click={() => expanded = false}>Gift Registry</a>
+                        <a href="#section_3" on:click={() => expanded = false}>Live Stream</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_4" on:click={() => expanded = false}>Livestream</a>
+                        <a href="#section_4" on:click={() => expanded = false}>Gift Registry</a>
                     </li>
                     <li class="nav-item">
                         <a href="#section_5" on:click={() => expanded = false}>Contact Us</a>
