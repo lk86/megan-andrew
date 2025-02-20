@@ -19,7 +19,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-  <link rel="icon" type="image/svg+xml" href="wedding-logo.svg">
+  <link rel="icon" type="image/x-icon" href="wedding-logo.ico">
   <link rel='stylesheet' href='spa/bundle.css'>
   <link rel='stylesheet' href='global.css'>
 </head>
