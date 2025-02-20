@@ -69,6 +69,14 @@
 			}
 		},
 		{
+			"name": "blurb",
+			"fields": {
+				"title": "Live Stream",
+				"background": "media/blurb/field-benjamin-davies.jpg",
+				"desc": "Wedding live streaming details coming soon, RSVP to recieve an email notification."
+			}
+		},
+		{
 			"name": "gallery",
 			"fields": {
 				"title": "Gallery",
@@ -146,13 +154,6 @@
 						"alt": "Megan and Andrew atop the Prudential Tower overlooking a sunset over the Charles River."
 					}
 				]
-			}
-		},
-		{
-			"name": "blurb",
-			"fields": {
-				"title": "Live Stream",
-				"desc": "Wedding live streaming details coming soon, RSVP to recieve an email notification."
 			}
 		},
 		{
