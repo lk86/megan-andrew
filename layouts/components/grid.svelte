@@ -44,11 +44,9 @@
                         </p>
 
                         <p>
-                            <span>
-                                <form action={item.url}>
-                                    <button type="submit" class="rsvp-button">RSVP</button>
-                                </form>
-                            </span>
+                            <a href="{item.url}" class="custom-link custom-btn btn mt-4">
+                                RSVP
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -83,23 +81,20 @@
     img:hover {
         transform: scale(1.1);
     }
-    button {
-        cursor: pointer;
-        background: var(--primary-color);
-        border: none;
+    .custom-btn {
+        background: var(--custom-btn-bg-color);
+        border: 0;
         color: var(--white-color);
-        font-size: var(--h4-font-size);
         font-family: var(--brand-font-family);
+        font-size: var(--p-font-size);
         font-weight: var(--font-weight-bold);
-        transition: all 0.3s;
-        margin-bottom: 0;
-        max-width: 100%;
+        text-transform: uppercase;
         position: relative;
         overflow: hidden;
-    }
-    button:hover {
-        background: var(--secondary-color);
-        border-color: transparent;
+        padding: 12px 24px;
+        width: 50%;
+        margin: auto;
+        display: block;
     }
     iframe.google-map {
         height: 20vw;

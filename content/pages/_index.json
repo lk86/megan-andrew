@@ -6,7 +6,13 @@
 			"fields": {
 				"title": "We're Getting Married!",
 				"subtitle": "",
-				"checklist": [],
+				"checklist": [
+					"Join us for the ceremony live on the Internet",
+					"5:30PM EDT on April 12th, 2025",
+					"Open bar! Hors d'oeuvress!",
+					"Bring your partner",
+					"Rain or Shine in a heated waterfront tent"
+				],
 				"link": {
 					"text": "RSVP Here",
 					"url": "#section_2"
@@ -23,21 +29,6 @@
 			}
 		},
 		{
-			"name": "blurb",
-			"fields": {
-				"background": "media/blurb/field-benjamin-davies.jpg",
-				"title": "Attending In Person",
-				"desc": "<p>For those of you joining in-person, don't worry about the weather; the ceremony will be inside an enclosed, heated tent. It is a formal dress code, with beach-ey colors. We will be on the beach in the smallest town in Massachusetts. Cocktail hour will be inside the venue, with hors d'oeuvres and an open bar. For those driving in, there is plenty of parking at the venue.</p>"
-			}
-		},
-		{
-			"name": "blurb",
-			"fields": {
-				"title": "Celebrating Virtually",
-				"desc": "<p>For our virtual friends and family, you will receive an email with the livestream link closer to the date. If you miss our email, come back here and we will have the link available.</p>"
-			}
-		},
-		{
 			"name": "grid",
 			"fields": {
 				"title": "RSVP",
@@ -48,7 +39,7 @@
 				"items": [
 					{
 						"title": "Attending In Person",
-						"message": "Thank you for coming! Please click the link to RSVP below before March 7th, 2024",
+						"message": "Thank you for coming! Some things you should know: don't worry about the weather; the ceremony will be in a heated tent overlooking the ocean. It is a formal dress code, cocktail hour will be indoors, with hors d'oeuvres and an open bar.",
 						"image": {
 							"src": "media/grid/decorated-table-setting-wedding-celebration.jpg",
 							"alt": "Decorated table setting at wedding celebration"
@@ -57,7 +48,7 @@
 					},
 					{
 						"title":"Celebrating Virtually",
-						"message":"RSVP below and we will send you an email with the link to watch the ceremony live!",
+						"message":"RSVP below and we will send you an email with the link to watch the ceremony live, or check back here on April 12th around 5:30 PM EDT.",
 						"image": {
 							"src": "media/grid/decorated-table-setting-wedding-celebration.jpg",
 							"alt": "Decorated table setting at wedding celebration"
@@ -66,7 +57,7 @@
 					},
 					{
 						"title": "Declining",
-						"message": "Sorry to hear that you can't make it, but check back here after April 12th to see the video of our ceremony and photos from throughout the celebration!",
+						"message": "Sorry to hear that you can't make it, but check back here after the wedding to see the video of our ceremony and photos from throughout the celebration!",
 						"image": {
 							"src": "media/grid/decorated-table-setting-wedding-celebration.jpg",
 							"alt": "Decorated table setting at wedding celebration"

@@ -8,7 +8,7 @@
   --dark-color: #191970;
   --p-color: #717275;
   --border-color: #e9eaeb;
-  --icon-color: #28856b;
+  --icon-color: #FF69B4;
   --body-font-family: 'Source Sans Pro', sans-serif;
   --title-font-family: 'Amatic SC', cursive;
   --brand-font-family: 'Castellar', 'Kastellar', 'Fredericka the Great', serif;
@@ -188,7 +188,7 @@ a {
 }
 
 .section-title-icon {
-  color: var(--primary-color);
+  color: var(--icon-color);
   font-size: var(--h5-font-size);
   display: inline-block;
   vertical-align: top;

@@ -12,7 +12,7 @@
             <div class="checklist">
                 {#each checklist as item}
                     <p>
-                        <i class="bi-check-circle-fill" />
+                        <i class="bi-balloon-heart-fill" />
                         {item}
                     </p>
                 {/each}
@@ -25,7 +25,7 @@
 
         <div class="save-the-date-wrapper">
             <div class="save-the-date-thumb">
-                <h4 class="save-the-date-title">Save the date</h4>
+                <h4 class="save-the-date-title">Save the Date</h4>
 
                 <div class="save-the-date-body">
                     <span class="date">{save_the_date}</span>
@@ -62,7 +62,7 @@
         width: 50%;
     }
     h1, .checklist p {
-        color: navy;
+        color: black;
     }
     h2 {
         color: var(--custom-btn-bg-color);
@@ -85,7 +85,7 @@
         display: inline-block;
     }
     .save-the-date-wrapper {
-        margin-top: 5%;
+        margin-top: -25%;
         margin-left: auto;
         flex: 0 0 auto;
         width: 25%;
@@ -102,6 +102,7 @@
         text-align: left;
     }
     .save-the-date-title {
+        font-family: var(--title-font-family);
         background: var(--primary-color);
         color: var(--white-color);
         margin-bottom: 0;
