@@ -13,6 +13,9 @@
             <div class="navbar-collapse{expanded ? ' expanded' : ''}" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
+                        <a href="#section_0" on:click={() => expanded = false}>Home</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#section_1" on:click={() => expanded = false}>RSVP</a>
                     </li>
                     <li class="nav-item">
