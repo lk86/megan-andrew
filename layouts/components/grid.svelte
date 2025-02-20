@@ -41,6 +41,9 @@
                         <p class="mb-2">
                             <i class="bi-balloon-heart me-1"></i>
                             {item.message}
+                            {#each item.bullets as bullet}
+                            <p><i class="bi-balloon-heart-fill me-1"></i>{bullet}</p>
+                            {/each}
                         </p>
 
                         <p>

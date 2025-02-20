@@ -32,7 +32,13 @@
 				"items": [
 					{
 						"title": "Attending In Person",
-						"message": "<p>Thank you for coming! Please click RSVP below, before March 7th, 2024.</p><p>Things to Know:</p><p>Location:  Enclosed and heated tent on the beach, with plenty of parking</p><p>Dress code: Formal beach wear</p><p>Reception: Indoors with hors d'oeuvres and an open bar</p><p>Bring a plus one, and have fun!</p>",
+						"message": "Thank you for coming! Please click RSVP below, before March 7th, 2024. Things to Know:",
+						"bullets": [
+									"Location:  Enclosed and heated tent on the beach, with plenty of parking",
+									"Dress code: Formal beach wear",
+									"Reception: Indoors with hors d'oeuvres and an open bar",
+									"Bring a plus one, and have fun!"
+						],
 						"image": {
 							"src": "media/grid/decorated-table-setting-wedding-celebration.jpg",
 							"alt": "Decorated table setting at wedding celebration"
