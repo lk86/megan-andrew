@@ -1,5 +1,5 @@
 {
-	"Fingerprint": "vmYlsrEdyt",
+	"Fingerprint": "dfZbLIJFSE",
 	"build": "public",
 	"baseurl": "",
 	"theme": "wedding-lite",
@@ -8,8 +8,7 @@
 	"theme_config": {
 		"wedding-lite": {
 			"url": "https://github.com/plenti-themes/wedding-lite",
-			"commit": "8152c3488a8ac94b478c19ae7f1f08ffdc839b24",
-			"exclude": []
+			"commit": "8152c3488a8ac94b478c19ae7f1f08ffdc839b24"
 		}
 	},
 	"local": {
