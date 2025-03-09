@@ -25,10 +25,6 @@
 			"name": "grid",
 			"fields": {
 				"title": "RSVP",
-				"desc": {
-					"intro": "Will you attend?",
-					"main": "Please reserve before March 7th, 2025"
-				},
 				"items": [
 					{
 						"title": "Attending In Person",
@@ -53,6 +49,7 @@
 							"src": "media/grid/OceanviewNahant.png",
 							"alt": "Oceanview Nahant wedding arbor."
 						},
+						"button": "Virtual RSVP",
 						"url": "https://docs.google.com/forms/d/e/1FAIpQLSf7l-GAG63tuqFFAxsp3QWYDdbBMJt6Ntzdd_l82W1Cs7lonA/viewform?usp=sharing"
 					},
 					{
@@ -63,6 +60,7 @@
 							"src": "media/grid/sunset.jpg",
 							"alt": "A California Sunset."
 						},
+						"button": "Decline",
 						"url": "https://docs.google.com/forms/d/e/1FAIpQLSfvf-vpS87L9rLkjbCTX5SHgMoCmI8LhG770I59QrAfLNvEvw/viewform?usp=sharing"
 					}
 				]
@@ -74,6 +72,33 @@
 				"title": "Live Stream",
 				"background": "media/blurb/field-benjamin-davies.jpg",
 				"desc": "Wedding live streaming details coming soon, RSVP to recieve an email notification."
+			}
+		},
+		{
+			"name": "grid",
+			"fields": {
+				"title": "Gift Registry",
+				"items": [
+					{
+						"title": "Sending Cash",
+						"message": "If you would rather support us financially instead, you can send dollars in the following ways:",
+						"bullets":[
+							"In-person at the wedding",
+							"Zelle or Paypal to paypal@lhk.me",
+							"Interac e-Transfer to megan.chua@telus.net",
+							"Or click the button below for Venmo"
+						],
+						"button": "Venmo",
+						"url": "https://account.venmo.com/u/Andrew-Trainor-3"
+					},
+					{
+						"title": "Amazon Gift Registry",
+						"message": "If you would like to give us a gift, here are some things we need from Amazon.",
+						"bullets":[],
+						"button": "Amazon",
+						"url": "https://amazon.com/wedding/share/megan-andrew"
+					}
+				]
 			}
 		},
 		{
@@ -154,14 +179,6 @@
 						"alt": "Megan and Andrew atop the Prudential Tower overlooking a sunset over the Charles River."
 					}
 				]
-			}
-		},
-		{
-			"name": "blurb",
-			"fields": {
-				"title": "Gift Registry",
-				"background": "media/blurb/field-benjamin-davies.jpg",
-				"desc": "Gift Registry Coming Soon™"
 			}
 		},
 		{

@@ -1,5 +1,5 @@
 <script>
-    export let title, items, desc, order;
+    export let title, items, order;
 </script>
 
 <section class="grid-section section-padding" id="section_{order}">
@@ -45,12 +45,17 @@
                             <p><i class="bi-balloon-heart-fill me-1"></i> {bullet}</p>
                             {/each}
                         </p>
-
+			{#if item?.url}
                         <p>
                             <a href="{item.url}" class="custom-link custom-btn btn mt-4">
+                                {#if item?.button}
+                                {item.button}
+                                {:else}
                                 RSVP
+                                {/if}
                             </a>
                         </p>
+                        {/if}
                     </div>
                 </div>
                 {/each}

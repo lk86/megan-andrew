@@ -22,10 +22,10 @@
                         <a href="#section_2" on:click={() => expanded = false}>Live Stream</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_3" on:click={() => expanded = false}>Gallery</a>
+                        <a href="#section_3" on:click={() => expanded = false}>Gift Registry</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_4" on:click={() => expanded = false}>Gift Registry</a>
+                        <a href="#section_4" on:click={() => expanded = false}>Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a href="#section_5" on:click={() => expanded = false}>Contact Us</a>
@@ -33,7 +33,7 @@
                 </ul>
             </div>
 
-            <button 
+            <button
                 on:click={() => expanded = !expanded}
                 class="navbar-toggler"
                 type="button"
@@ -169,7 +169,7 @@
         .navbar-toggler-icon {
             display: block;
         }
-        .navbar-collapse { 
+        .navbar-collapse {
             position: absolute;
             top: 90px;
             left: 0;
