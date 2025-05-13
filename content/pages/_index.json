@@ -4,21 +4,25 @@
 		{
 			"name": "hero",
 			"fields": {
-				"title": "We're Getting Married!",
+				"title": "We're Married!",
 				"subtitle": "",
 				"checklist": [
-					"Join us in person, or watch the ceremony live",
-					"5:30PM EDT on April 12th, 2025",
-					"RSVP by March 7th",
-					"Open bar! Hors d'oeuvres!",
-					"Rain or Shine in a heated waterfront tent"
+					"Watch the Ceremony Video",
+					"Browse the Wedding Gallery",
+					"Thank you for celebrating with us!"
 				],
-				"link": {
-					"text": "RSVP Here",
-					"url": "#section_1"
-				},
+				"link": [
+					{
+						"text": "Ceremony Video",
+						"url": "#section_1"
+					},
+					{
+						"text": "Wedding Gallery",
+						"url": "#section_2"
+					},
+				],
 				"image": "media/hero/smoots.jpg",
-				"save_the_date": "April 12th, 2025"
+				"save_the_date": ""
 			}
 		},
 		{
