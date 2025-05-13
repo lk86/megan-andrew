@@ -11,7 +11,7 @@
 					"Browse the Wedding Gallery",
 					"Thank you for celebrating with us!"
 				],
-				"link": [
+				"links": [
 					{
 						"text": "Ceremony Video",
 						"url": "#section_1"
@@ -19,7 +19,7 @@
 					{
 						"text": "Wedding Gallery",
 						"url": "#section_2"
-					},
+					}
 				],
 				"image": "media/hero/smoots.jpg",
 				"save_the_date": ""
@@ -30,14 +30,14 @@
 			"fields": {
 				"title": "Ceremony Video",
 				"background": "media/blurb/field-benjamin-davies.jpg",
-				"desc": "<div style="text-align: center;"><iframe src='https://player.vimeo.com/video/1075111488?h=2e71a8eed5&amp%3Bbadge=0&amp%3Bautopause=0&amp%3Bplayer_id=0&amp%3Bapp_id=58479' width='100%' height='480' frameborder="0" allow="fullscreen" allowfullscreen></iframe></div>"
+				"desc": "<div style='text-align: center;'><iframe src='https://player.vimeo.com/video/1075111488?h=2e71a8eed5&amp%3Bbadge=0&amp%3Bautopause=0&amp%3Bplayer_id=0&amp%3Bapp_id=58479' width='100%' height='480' frameborder='0' allow='fullscreen' allowfullscreen></iframe></div>"
 			}
 		},
 		{
 			"name": "gallery",
 			"fields": {
 				"title": "Wedding Gallery",
-				"desc": "<a href='http://www.brianwilsonphoto.com/megan_andy/'>Browse our wedding photos here!</a>"
+				"desc": "<a href='http://www.brianwilsonphoto.com/megan_andy/'>Browse our wedding photos here!</a>",
 				"photos": [
 					{
 						"src": "media/gallery/Asbury Park.jpg",
