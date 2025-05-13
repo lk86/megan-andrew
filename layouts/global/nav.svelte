@@ -19,13 +19,10 @@
                         <a href="#section_1" on:click={() => expanded = false}>Ceremony Video</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_2" on:click={() => expanded = false}>Gallery</a>
+                        <a href="#section_2" on:click={() => expanded = false}>Wedding Photos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_3" on:click={() => expanded = false}>Wedding Photos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#section_4" on:click={() => expanded = false}>Contact Us</a>
+                        <a href="#section_3" on:click={() => expanded = false}>Contact Us</a>
                     </li>
                 </ul>
             </div>

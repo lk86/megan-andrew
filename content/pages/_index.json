@@ -26,7 +26,28 @@
 			"fields": {
 				"title": "Ceremony Video",
 				"background": "media/blurb/field-benjamin-davies.jpg",
-				"desc": "<a href='https://player.vimeo.com/video/1075111488?h=2e71a8eed5&amp%3Bbadge=0&amp%3Bautopause=0&amp%3Bplayer_id=0&amp%3Bapp_id=58479'>Relive the ceremony here!</a>"
+				"desc": "<div style="text-align: center;"><iframe src='https://player.vimeo.com/video/1075111488?h=2e71a8eed5&amp%3Bbadge=0&amp%3Bautopause=0&amp%3Bplayer_id=0&amp%3Bapp_id=58479' width='100%' height='480' frameborder="0" allow="fullscreen" allowfullscreen></iframe></div>"
+			}
+		},
+		{
+			"name": "gallery",
+			"fields": {
+				"title": "Wedding Gallery",
+				"desc": "<a href='http://www.brianwilsonphoto.com/megan_andy/'>Browse our wedding photos here!</a>"
+				"photos": [
+					{
+						"src": "media/gallery/Asbury Park.jpg",
+						"alt": "Megan and Andrew on the boardwalk in Asbury Park, NJ"
+					},
+					{
+						"src": "media/gallery/Boston Commons.jpg",
+						"alt": "Megan and Andrew on the Boston Public Garden Foot Bridge"
+					},
+					{
+						"src": "media/gallery/Cherry Blossoms.jpg",
+						"alt": "Megan and Andrew under a cherry blossom tree in Vancouver"
+					}
+				]
 			}
 		},
 		{
@@ -110,14 +131,6 @@
 			}
 		},
 		{
-			"name": "blurb",
-			"fields": {
-				"title": "Wedding Photos",
-				"background": "media/blurb/field-benjamin-davies.jpg",
-				"desc": "<a href='http://www.brianwilsonphoto.com/megan_andy/'>Browse our wedding photos here!</a>"
-			}
-		},
-		{
 			"name": "contact",
 			"fields": {
 				"title": "Get in Touch",
@@ -125,7 +138,7 @@
 					{ "title": "", "desc": ""},
 					{
 						"title": "Contact Information",
-						"desc": "<a href='mailto:megan-andrew@lhk.me'>megan-andrew@lhk.me</a><br><a href='tel:1-862-200-8745'>1-862-200-8745</a>"
+						"desc": "<a href='mailto:megan-andrew@megan-andrew.love'>megan-andrew@megan-andrew.love</a><br><a href='tel:1-862-200-8745'>1-862-200-8745</a>"
 					},
 					{ "title": "", "desc": ""}
 				]

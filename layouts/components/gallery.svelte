@@ -1,5 +1,5 @@
 <script>
-    export let title, photos, order;
+    export let title, desc, photos, order;
 </script>
 
 <section class="gallery-section section-bg section-padding" id="section_{order}">
@@ -15,6 +15,11 @@
                     <span class="section-title-line"></span>
                 </div>
             </div>
+
+            {#if desc}
+            <div class="desc">{@html desc}</div>
+            <br>
+            {/if}
 
             <div class="photos">
                 {#each photos as photo, i}

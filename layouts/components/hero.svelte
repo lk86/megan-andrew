@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitle, checklist, link, image, save_the_date, order;
+    export let title, subtitle, checklist, links, image, save_the_date, order;
 </script>
 
 <section class="hero-section" id="section_{order}">
@@ -7,7 +7,7 @@
         <div class="content">
 
             <h1>{title}</h1>
-            <h2>{subtitle}</h2>
+            <h3>{subtitle}</h3>
 
             <div class="checklist">
                 {#each checklist as item}
@@ -18,11 +18,16 @@
                 {/each}
             </div>
 
-            <a href="{link.url}" class="custom-link custom-btn btn mt-4">
-                {link.text}
-            </a>
+            {#each links as link}
+            	<p>
+            		<a href="{link.url}" class="custom-link custom-btn btn mt-4">
+                		{link.text}
+            		</a>
+            	</p>
+            {/each}
         </div>
 
+	{#if save_the_date}
         <div class="save-the-date-wrapper">
             <div class="save-the-date-thumb">
                 <h4 class="save-the-date-title">Save the Date</h4>
@@ -32,6 +37,7 @@
                 </div>
             </div>
         </div>
+        {/if}
     </div>
 </section>
 
