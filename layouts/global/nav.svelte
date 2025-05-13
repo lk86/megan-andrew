@@ -16,19 +16,16 @@
                         <a href="#section_0" on:click={() => expanded = false}>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_1" on:click={() => expanded = false}>RSVP</a>
+                        <a href="#section_1" on:click={() => expanded = false}>Ceremony Video</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_2" on:click={() => expanded = false}>Live Stream</a>
+                        <a href="#section_2" on:click={() => expanded = false}>Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_3" on:click={() => expanded = false}>Gift Registry</a>
+                        <a href="#section_3" on:click={() => expanded = false}>Wedding Photos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#section_4" on:click={() => expanded = false}>Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#section_5" on:click={() => expanded = false}>Contact Us</a>
+                        <a href="#section_4" on:click={() => expanded = false}>Contact Us</a>
                     </li>
                 </ul>
             </div>
