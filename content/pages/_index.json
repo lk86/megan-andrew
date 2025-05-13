@@ -7,7 +7,7 @@
 				"title": "We're Married!",
 				"subtitle": "",
 				"checklist": [
-					"Watch the Ceremony Video",
+					"Watch the Ceremony Recording",
 					"Browse the Wedding Gallery",
 					"Thank you for celebrating with us!"
 				],
@@ -17,7 +17,7 @@
 						"url": "#section_1"
 					},
 					{
-						"text": "Wedding Gallery",
+						"text": "Wedding Photos",
 						"url": "#section_2"
 					}
 				],
@@ -28,7 +28,7 @@
 		{
 			"name": "blurb",
 			"fields": {
-				"title": "Ceremony Video",
+				"title": "Ceremony Recording",
 				"background": "media/blurb/field-benjamin-davies.jpg",
 				"desc": "<div style='text-align: center;'><iframe src='https://player.vimeo.com/video/1075111488?h=2e71a8eed5&amp%3Bbadge=0&amp%3Bautopause=0&amp%3Bplayer_id=0&amp%3Bapp_id=58479' width='100%' height='480' frameborder='0' allow='fullscreen' allowfullscreen></iframe></div>"
 			}
