@@ -37,19 +37,71 @@
 			"name": "gallery",
 			"fields": {
 				"title": "Wedding Gallery",
-				"desc": "<a href='http://www.brianwilsonphoto.com/megan_andy/'>Browse our wedding photos here!</a>",
+				"desc": "<div style='text-align: center;'><a href='http://www.brianwilsonphoto.com/megan_andy/'>Browse all of our wedding photos here!</a></div>",
 				"photos": [
 					{
-						"src": "media/gallery/Asbury Park.jpg",
-						"alt": "Megan and Andrew on the boardwalk in Asbury Park, NJ"
+						"src": "media/gallery/20250412_MeganAndy_028.jpg",
+						"alt": "Wedding Rings with Bouquet"
 					},
 					{
-						"src": "media/gallery/Boston Commons.jpg",
-						"alt": "Megan and Andrew on the Boston Public Garden Foot Bridge"
+						"src": "media/gallery/20250412_MeganAndy_061.jpg",
+						"alt": "Megan and Andrew under the Arch"
 					},
 					{
-						"src": "media/gallery/Cherry Blossoms.jpg",
-						"alt": "Megan and Andrew under a cherry blossom tree in Vancouver"
+						"src": "media/gallery/20250412_MeganAndy_198.jpg",
+						"alt": "Megan and Andrew under the Arch closeup"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_208.jpg",
+						"alt": "Megan and Andrew under the Arch turning towards the camera"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_107.jpg",
+						"alt": "Megan and Andrew with the officiant and both families during the ceremony"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_110.jpg",
+						"alt": "Megan and Andrew with the officiant during the wedding ceremony closeup"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_172.jpg",
+						"alt": "Megan and Andrew with the officiant during the wedding ceremony walking back down the aisle as a married couple"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_184.jpg",
+						"alt": "Megan and Andrew with the whole family"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_212.jpg",
+						"alt": "Megan and Andrew in front of the Just Married boat"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_298.jpg",
+						"alt": "Megan and Andrew at the sweetheart table surrounded by flowers"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_217.jpg",
+						"alt": "Megan with her bridesmaids adjusting her dress"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_229.jpg",
+						"alt": "Megan and Andrew's ocean themed wedding cake"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_228.jpg",
+						"alt": "Megan and Andrew with the wedding cake"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_233.jpg",
+						"alt": "Megan and Andrew hugging in front of the fireplace"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_261.jpg",
+						"alt": "Megan and Andrew during their first dance"
+					},
+					{
+						"src": "media/gallery/20250412_MeganAndy_245.jpg",
+						"alt": "All of the wedding guests, besides our wonderful photographer Brian"
 					}
 				]
 			}
