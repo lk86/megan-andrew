@@ -37,7 +37,7 @@
 			"name": "gallery",
 			"fields": {
 				"title": "Wedding Gallery",
-				"desc": "<div style='text-align: center;'><a href='http://www.brianwilsonphoto.com/megan_andy/'>Browse all of our wedding photos here!</a></div>",
+				"desc": "<div style='text-align: center; margin-bottom: 25px;'>To browse the full collection of wedding photos <a href='http://www.brianwilsonphoto.com/megan_andy/' style='color:#0000ee;'>Click Here</a><br></div>",
 				"photos": [
 					{
 						"src": "media/gallery/20250412_MeganAndy_028.jpg",
@@ -84,10 +84,6 @@
 						"alt": "Megan with her bridesmaids adjusting her dress"
 					},
 					{
-						"src": "media/gallery/20250412_MeganAndy_229.jpg",
-						"alt": "Megan and Andrew's ocean themed wedding cake"
-					},
-					{
 						"src": "media/gallery/20250412_MeganAndy_228.jpg",
 						"alt": "Megan and Andrew with the wedding cake"
 					},
@@ -109,7 +105,8 @@
 		{
 			"name": "gallery",
 			"fields": {
-				"title": "Engagement Gallery",
+				"title": "Selfie Gallery",
+				"desc": "<div style='text-align: center; margin-bottom: 25px;'>Some of our favorite selfies from around the world together.<br></div>",
 				"photos": [
 					{
 						"src": "media/gallery/Asbury Park.jpg",
